@@ -14,8 +14,8 @@ test.describe('Settings', () => {
     await expect(page.locator('h1', { hasText: 'Welcome to the Rhodium Agent' })).toBeInViewport({
       timeout: 5000,
     });
-    await expect(page.getByRole('button', { name: 'FT' })).toBeVisible();
-    await page.getByRole('button', { name: 'FT' }).click();
+    await expect(page.getByRole('button', { name: 'Rh' })).toBeVisible();
+    await page.getByRole('button', { name: 'Rh' }).click();
     await page.getByRole('menuitem', { name: 'Settings' }).click();
 
     await expect(page.getByText('Rhodium Settings')).toBeVisible();
