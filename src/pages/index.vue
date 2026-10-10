@@ -26,11 +26,11 @@ definePage({
         href="https://www.freqtrade.io/en/latest/"
         target="_blank"
       >
-        Freqtrade Documentation
+        documentation (Rhodium is built on freqtrade)
       </a>
       .
     </p>
 
-    <p class="mb-5">Have fun - <i>wishes you the Freqtrade team</i></p>
+    <p class="mb-5"><i>Rhodium Trading Agent - built on freqtrade and FreqUI</i></p>
   </div>
 </template>

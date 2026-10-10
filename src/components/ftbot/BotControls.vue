@@ -25,7 +25,7 @@ async function handleStopBuy() {
     await confirm({
       title: 'Pause - Stop Entering',
       message:
-        'Freqtrade will continue to handle open trades, but will not enter new trades or increase position sizes. \nReally stop entering?',
+        'The bot will continue to handle open trades, but will not enter new trades or increase position sizes. \nReally stop entering?',
     })
   ) {
     botStore.activeBot.stopBuy();
@@ -87,7 +87,7 @@ async function handleForceEntry() {
       size="xl"
       color="neutral"
       :disabled="!botStore.activeBot.isTrading || !isRunning"
-      title="Pause (StopBuy) - Freqtrade will continue to handle open trades, but will not enter new trades or increase position sizes."
+      title="Pause (StopBuy) - The bot will continue to handle open trades, but will not enter new trades or increase position sizes."
       icon="mdi:pause"
       @click="handleStopBuy()"
     />

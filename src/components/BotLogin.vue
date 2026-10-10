@@ -202,7 +202,7 @@ onMounted(() => {
       <UInput
         v-model="auth.username"
         required
-        placeholder="Freqtrader"
+        placeholder="rhodium"
         class="w-full"
         @keydown.enter="handleOk"
       />
@@ -234,7 +234,7 @@ onMounted(() => {
             <a
               href="https://www.freqtrade.io/en/latest/rest-api/#cors"
               class="text-blue-500 underline"
-              >Freqtrade CORS documentation</a
+              >CORS documentation (freqtrade)</a
             >
           </span>
         </template>
